@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LookForPartnerActivity"
+    android:background="@drawable/back">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/postsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/addPostLayout"
+        android:layout_marginBottom="0dp"
+        android:padding="5dp"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/noPostYetStr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noposts_str"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/addPostLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/addPostBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addpost_str"
+            android:background="@drawable/login_button"/>
+    </LinearLayout>
+
+</RelativeLayout>

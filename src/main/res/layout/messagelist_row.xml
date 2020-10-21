@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    app:cardBackgroundColor="#DDDDDD"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:chainUseRtl="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <LinearLayout
+            android:id="@+id/messageCardHeadLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/messageCardUserImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/messageTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="left"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/messageAuthorTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/messageDateTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/messageCardBodyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/messageCardHeadLayout"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/messageDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/messageCardInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageCardBodyLayout"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/messageCardEmailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/messageCardPhoneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="5dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/messageCardBottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/messageCardInfoLayout"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/messageCardProfileBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/profile_str"
+                android:background="@drawable/login_button"/>
+            <Button
+                android:id="@+id/messageCardDeleteBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete_str"
+                android:background="@drawable/signup_button"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

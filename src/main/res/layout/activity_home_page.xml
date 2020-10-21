@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity"
+    android:gravity="center"
+    android:background="@drawable/back">
+
+
+    <RelativeLayout
+        android:id="@+id/profileChatBtnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/profileBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button"
+                android:backgroundTint="#F0F0F0"
+                android:src="@drawable/profile_png"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_str"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/profileBtn"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentRight="true">
+            <ImageButton
+                android:id="@+id/messageListBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button"
+                android:backgroundTint="#F0F0F0"
+                android:src="@drawable/messages_png"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/messages_str"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/messageListBtn"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileChatBtnLayout"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/lookForPartnerBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button"
+                android:src="@drawable/serach_png"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lookforpartner_str"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_below="@id/lookForPartnerBtn"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentRight="true">
+            <ImageButton
+                android:id="@+id/whereToPlayBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/map_png"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wheretoplay_str"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/whereToPlayBtn"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

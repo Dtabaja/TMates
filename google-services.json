@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212527210378",
+    "firebase_url": "https://tmates-af55f.firebaseio.com",
+    "project_id": "tmates-af55f",
+    "storage_bucket": "tmates-af55f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212527210378:android:c1de29ab2b05b190fef273",
+        "android_client_info": {
+          "package_name": "com.example.tmates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212527210378-opdr1tpsb1dm5b99s25armbm9fbov9ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tmates",
+            "certificate_hash": "df291df2ae6d605d8ad7e9da7edd528309da0064"
+          }
+        },
+        {
+          "client_id": "212527210378-l0vd0b580cgkjsm2863sli23e9ub8ef8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzg_rOz8fQToYlx4ErzFnfEL8pzuJdNYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212527210378-l0vd0b580cgkjsm2863sli23e9ub8ef8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

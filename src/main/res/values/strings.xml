@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">TMates</string>
+    <string name="lookforpartner_str">Look For Partner</string>
+    <string name="wheretoplay_str">Where To Play?</string>
+    <string name="login_str">Login</string>
+    <string name="signup_str">Sign Up</string>
+    <string name="rememberme_str">Remember me</string>
+    <string name="email_str">Email</string>
+    <string name="password_str">Password</string>
+    <string name="reenterpass_str">Re-enter password</string>
+    <string name="welcome_str">Welcome!</string>
+    <string name="male_str">Male</string>
+    <string name="female_str">Female</string>
+    <string name="tays_str">Tell about yourself:</string>
+    <string name="cys_str">Choose your sports:</string>
+    <string name="continue_str">Continue</string>
+    <string name="title_activity_where_to_play">Map</string>
+    <string name="name_str">Name</string>
+    <string name="age_str">Age</string>
+    <string name="city_str">City</string>
+    <string name="description_str">Description</string>
+    <string name="uploadimg_str">Upload Image</string>
+    <string name="basketball_str">Basketball</string>
+    <string name="soccer_str">Soccer</string>
+    <string name="tennis_str">Tennis</string>
+    <string name="football_str">Football</string>
+    <string name="volleyball_str">Volleyball</string>
+    <string name="running_str">Running</string>
+    <string name="baseball_str">Baseball</string>
+    <string name="yourimg_str">Your Image</string>
+    <string name="profile_str">Profile</string>
+    <string name="addpost_str">Add Post</string>
+    <string name="sport_str">Sport</string>
+    <string name="experience_str">Experience</string>
+    <string name="posttitle_str">Post Title:</string>
+    <string name="enterposttitle_str">Enter your post title</string>
+    <string name="postdescription_str">Post Description:</string>
+    <string name="enterpostdescription_str">Enter your post description</string>
+    <string name="confirm_str">Confirm</string>
+    <string name="cancel_str">Cancel</string>
+    <string name="editprofile_str">Edit Profile</string>
+    <string name="gender_str">Gender</string>
+    <string name="save_str">Save</string>
+    <string name="chats_str">Chats</string>
+    <string name="message_str">Message</string>
+    <string name="messagetitle_str">Message Title:</string>
+    <string name="entermessagetitle_str">Enter your message title</string>
+    <string name="messagedescription_str">Message Description:</string>
+    <string name="entermessagedescription_str">Enter your message description</string>
+    <string name="contactinfo_str">Contact Information:</string>
+    <string name="phonenum_str">Phone Number:</string>
+    <string name="entermessageemail_str">Enter your email</string>
+    <string name="entermessagephone_str">Enter your phone number</string>
+    <string name="fill_str">Fill at least one of the options down below.</string>
+    <string name="messages_str">Messages</string>
+    <string name="nomessages_str">No messages yet...</string>
+    <string name="delete_str">Delete</string>
+    <string name="noposts_str">No posts yet...</string>
+    <string-array name="sports_array">
+        <item>Select Sport</item>
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Running</item>
+        <item>Baseball</item>
+        <item>Volleyball</item>
+        <item>Walking</item>
+        <item>Football</item>
+        <item>Tennis</item>
+    </string-array>
+    <string-array name="exp_array">
+        <item>Beginner</item>
+        <item>Amateur</item>
+        <item>Professional</item>
+    </string-array>
+</resources>
